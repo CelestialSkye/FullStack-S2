@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Project</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="mainstyle.css" />
+
+<center>
+  <script>
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =
+      h + ":" + m + ":" + s;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  
+      return i;
+    }
+    </script>
+  
+
+
+</head>
+<body onload="startTime()">
+
+  <div id="txt" style="color:white; font-size:30px"></div>
+
+
+
+
+
+<div id="wrapper">
+  <div id="header"><h1>
+
+       <div class="img">
+         <h2>
+           EVERY SUPERCAR OUT THERE
+         </h2>
+        </div>
+  </h1></div>
+
+
+
+  <div id="navigation">
+    <ul id="menu">
+      <center>
+      <li><a href="P1.html" target="_self"  >Ferrari</a></li>
+      <li><a href="P2.html" target="_self" >Bugatti</a></li>
+      <li><a href="P3.html" target="_self">Lamborghini</a></li>
+      <li><a href="P4.html" target="_self">Porsche</a></li>
+      <li><a href="P5.html" target="_self">Companies</a></li>
+      <li><a href="P6.html" target="_self">Gallary</a></li>
+      <li><a href="P7.html" target="_self">Technology</a></li>
+      <li><a href="P8.html" target="_self">Contact</a></li>
+      
+      <li><a href="buycar.html" target="_self">Car Shop</a></li>
+      <li><a href="buyengine.html" target="_self">Engine Shop</a></li>
+      <li><a href="P11.html" target="_self">Quiz</a></li>
+
+      <center/>
+    </ul>
+   </div>
+  <div id="content">
+
+
+
+
+<center>
+    <button id="changeGreen">Change color to green</button>
+<button id="changeRed">Change color to red</button>
+
+</center>
+<h1>
+<span id="output"></br>
+Ultra-Modern, Super-Efficient, High-Performance Cars
+</br>
+</br>
+An Introduction
+</h1>
+</br>
+</br></span>
+</h1>
+
+<script>
+
+
+document.getElementById("changeGreen").onclick =  () =>{
+	document.getElementById("output").style.color = 'green';
+}
+
+document.getElementById("changeRed").onclick = () =>{
+	document.getElementById("output").style.color = 'red';
+}
+</script>
+
+
+
+
+
+    <center>
+
+    <img src="main.jpg" alt="" width="90%" height="100%" >
+
+  </center>
+    </br>
+    </br>
+    <p>
+      This Project was made by Sameer Odeh and AbdAllah AbdAlhadi
+    </br>
+    </br>
+    <h1>
+      Why did we choose this topic
+    </h1>
+    <p>
+      we have always been fascinated by cars, and especially super cars, but we really never had the opportunity to learn about them in such a fun way but with this project it was a good opportunity to get into the details of SuperCars
+      so we eventually agreed to go with this topic
+    </p>
+    <h1>
+    The Definistion of a SuperCar
+    </br>
+    What classifies a car as a supercar?
+    </h1>
+    </br>
+    </br>
+    <p>
+
+    A supercar - also called exotic car - is a loosely defined description of certain high-performance street-legal sportscars. Since the 2000s or 2010s, the term hypercar has come into use for the highest performing supercars.
+    </p>
+    </br>
+    </br>
+    <h1>
+      What are some characteristics of Supercars?
+    </h1>
+    </br>
+    </br>
+    <p>
+      Supercars have very efficient propulsion, weight-efficient construction, and outstanding aerodynamics. While any one of these characteristics alone can create good performance, when all three are combined the resulting hypercars can exceed typical Autobahn speeds, offer good handling, and achieve astounding fuel economy.
+    </p>
+    </br>
+    </br>
+    <h1>
+      Are Supercars safe?
+    </h1>
+    </br>
+    </br>
+    <p>
+      Yes, hypercars use some of the same technology found on modern race cars to create safety cells that make difficult crashes survivable. GM's Ultralite met all corporate and government crash standards thanks to advanced carbon fiber composite sandwich construction also found in high-performance aircraft. Hypercars can use some of the same technology that helps race car drivers survive crashes such as the use of carbon fiber, Kevlar, Aluminum honeycomb, and other advanced materials and design techniques
+    </p>
+    </br>
+    </br>
+    <h1>
+     Meaningful measurements?
+    </h1>
+    </br>
+    </br>
+    <p>
+      A wide variety of measurements and terms are used to describe road vehicle efficiency. "Fuel economy", "fuel consumption" all purport to measure how efficiently a vehicle uses energy under some standardized conditions. In the U.S. and U.K., the typical measurement is miles per gallon. (However U.K. uses the larger Imperial Gallon at 4.54 liters, while a U.S. Gallon is 3.78 liters.) On the European continent liters per hundred kilometers is common. A different measurement of Watt-hours per mile or kilometer is commonly used for electric vehicles including fuel cell electric vehicles. However Watt-hours per distance is also well-suited to describing the energy efficiency of internal combustion vehicles, and it allows meaningful comparisons across vehicles with different types of propulsion and energy sources. In the calculations below a U.S. gallon of gasoline is standardized to contain 36,650 Watt-hours of energy, and there are 3.78 liters per gallon. (So there are nearly 10 kWh per liter of gasoline.) Internal combustion engines typically waste about 80% of the energy in their fuel as useless heat.
+    </p>
+
+
+
+
+  </div>
+   </div>
+  </div>
+</body>
+</html>
